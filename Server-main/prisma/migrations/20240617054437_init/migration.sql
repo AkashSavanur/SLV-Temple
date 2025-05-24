@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "OTP" ALTER COLUMN "phone_number" SET DATA TYPE BIGINT;
+
+-- AlterTable
+ALTER TABLE "Users" ALTER COLUMN "phone_number" SET DATA TYPE BIGINT;

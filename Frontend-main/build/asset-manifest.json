@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f185287.css",
+    "main.js": "/static/js/main.11de45ab.js",
+    "static/js/239.26bc3779.chunk.js": "/static/js/239.26bc3779.chunk.js",
+    "static/js/213.88bd5ff5.chunk.js": "/static/js/213.88bd5ff5.chunk.js",
+    "static/js/732.20c7e531.chunk.js": "/static/js/732.20c7e531.chunk.js",
+    "static/js/453.bdd41670.chunk.js": "/static/js/453.bdd41670.chunk.js",
+    "static/media/expenses.png": "/static/media/expenses.4490a34154e23445dc2a.png",
+    "static/media/logo.png": "/static/media/logo.accd183d6c802e2145cf.png",
+    "static/media/upiqr.png": "/static/media/upiqr.0c806c8dbd2dfd5b0319.png",
+    "static/media/dooziesoft_logo.png": "/static/media/dooziesoft_logo.c7eeab0b613ff3fc0dcb.png",
+    "index.html": "/index.html",
+    "main.8f185287.css.map": "/static/css/main.8f185287.css.map",
+    "main.11de45ab.js.map": "/static/js/main.11de45ab.js.map",
+    "239.26bc3779.chunk.js.map": "/static/js/239.26bc3779.chunk.js.map",
+    "213.88bd5ff5.chunk.js.map": "/static/js/213.88bd5ff5.chunk.js.map",
+    "732.20c7e531.chunk.js.map": "/static/js/732.20c7e531.chunk.js.map",
+    "453.bdd41670.chunk.js.map": "/static/js/453.bdd41670.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f185287.css",
+    "static/js/main.11de45ab.js"
+  ]
+}

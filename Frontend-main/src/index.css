@@ -1,0 +1,165 @@
+/* Reset default margin and font-family */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to right,
+    rgb(38, 179, 251),
+    rgb(249, 178, 0)
+  );
+}
+
+/* Code styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Header styling */
+header {
+  background-image: linear-gradient(
+    to right,
+    rgb(38, 179, 251),
+    rgb(249, 178, 0)
+  );
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+header h1 {
+  align-items: center;
+}
+
+/* Individual button styles */
+
+/* Dashboard container */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Header container */
+.header {
+  width: 100%;
+}
+
+/* Button grid container */
+.button-grid-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Button grid */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Donor management styling */
+.donor-management {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Adopt a day container */
+.adopt-a-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+}
+
+/* .profile-pic {
+  position: fixed;
+  top: 10px;
+  right: 10px; 
+  cursor: pointer;
+  z-index: 999;
+}
+.client-pic {
+  position: fixed;
+  top: 60px; 
+  right: 10px; 
+  cursor: pointer;
+  z-index: 999; 
+} */
+.Deity {
+  position: fixed; /* Fix the element to the viewport */
+  top: 0px; /* Position from the top */
+  left: 0px; /* Position from the left */
+  width: 100px;
+  height: 181px;
+  margin-right: 8px;
+  font-family: monospace;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  color: inherit;
+  text-decoration: none;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.home {
+  position: fixed; /* Fixes the position relative to the viewport */
+  top: 10px; /* Adjusts the distance from the top */
+  right: 10px;
+}
+
+.register-new {
+  width: 200px;
+}
+
+/* index.css or a relevant CSS file */
+
+.dashboard-button {
+  flex: 1 1 300px; /* Flex properties for responsive design */
+  margin: 10px;
+}
+
+.button-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Gap between buttons */
+}
+
+/* Optional: Adjust button size and layout for smaller screens */
+@media (max-width: 600px) {
+  .dashboard-button {
+    flex: 1 1 100%; /* Full width on smaller screens */
+  }
+}
+
+/* Example CSS for adjusting calendar and badge size */
+.MuiBadge-badge {
+  width: 10px !important;
+  height: 10px !important;
+  font-size: 10px !important;
+}
+
+.MuiPickersStaticWrapper-staticWrapperRoot {
+  max-width: 800px; /* Adjust max width of the calendar wrapper */
+  max-height: 800px; /* Adjust max height of the calendar wrapper */
+  margin: 0 auto; /* Center align the calendar */
+}

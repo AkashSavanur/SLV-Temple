@@ -1,0 +1,35 @@
+-- AlterTable
+ALTER TABLE "AdoptADay" ADD COLUMN     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3),
+ALTER COLUMN "rate_id" SET DATA TYPE TEXT;
+
+-- AlterTable
+ALTER TABLE "Donations" ADD COLUMN     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3);
+
+-- AlterTable
+ALTER TABLE "OTP" ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3);
+
+-- AlterTable
+ALTER TABLE "Purposes" ADD COLUMN     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3);
+
+-- AlterTable
+ALTER TABLE "Rates" ADD COLUMN     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3);
+
+-- AlterTable
+ALTER TABLE "Relationship" ADD COLUMN     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3);
+
+-- AlterTable
+ALTER TABLE "Users" ADD COLUMN     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN     "deleted_at" TIMESTAMP(3),
+ADD COLUMN     "updated_at" TIMESTAMP(3),
+ALTER COLUMN "DOB" SET DATA TYPE TIMESTAMP(3);
